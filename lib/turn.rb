@@ -47,7 +47,7 @@ def turn(board)
   if valid_move?(board, index) == true
     move(board, index)
   else
-    puts "Not a valid entry, position must be between 1 and 9"
+    puts "Not a valid entry, position must be between 1 and 9 and not be currently occupied"
     turn(board)
   end
   display_board(board)
