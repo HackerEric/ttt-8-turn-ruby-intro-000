@@ -47,7 +47,7 @@ def turn(board)
   if valid_move?(board, index) == true
     move(board, index)
   else
-    puts "Not a valid entry, please enter a position 1-9:"
-    input = gets.strip
+    puts "Not a valid entry, position must be between 1 and 9"
+    turn(board)
   end
 end
