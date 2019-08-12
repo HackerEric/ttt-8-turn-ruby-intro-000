@@ -38,12 +38,3 @@ end
 def move(board, position, character = "X")
   board[position] = character
 end
-
-# This is the CLI code.
-# puts "Welcome to Tic Tac Toe!"
-# board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-# puts "Where would you like to go?"
-# input = gets.strip
-# index = input_to_index(input)
-# move(board, index)
-# display_board(board)
