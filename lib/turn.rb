@@ -48,5 +48,6 @@ def turn(board)
     move(board, index)
   else
     puts "Not a valid entry, please enter a position 1-9:"
+    input = gets.strip
   end
 end
