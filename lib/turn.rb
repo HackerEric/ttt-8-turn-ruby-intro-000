@@ -50,4 +50,5 @@ def turn(board)
     puts "Not a valid entry, position must be between 1 and 9"
     turn(board)
   end
+  display_board(board)
 end
